@@ -1,0 +1,12 @@
+# auto push and commit file
+git_automate.py
+fred_api_key.dat
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/
+.jupyter_ystore.db
+
+# virtual environments
+.virtual_documents
+*/.virtual_documents/
