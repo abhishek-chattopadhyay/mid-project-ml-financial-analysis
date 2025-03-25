@@ -24,5 +24,3 @@ def get_fred_data(symbol):
     fred = Fred(api_key=fred_api)
     symbol_data = fred.get_series(symbol)
     return symbol_data
-
-
