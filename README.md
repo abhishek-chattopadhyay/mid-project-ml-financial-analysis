@@ -48,14 +48,14 @@ Understanding the financial market is one of the most challenging yet fascinatin
 ## Project Structure
 ```bash
   mid-project-ml-financial-analysis/
-  ├── code/             # Jupyter notebooks for data cleaning, EDA, and modeling
+  ├── code/             # Jupyter notebooks and Streamlit app
   │   ├── data_cleaning.ipynb
   │   ├── eda.ipynb
-  │   └── supervised_ml_classification.ipynb
+  │   ├── supervised_ml_classification.ipynb
+  │   └── streamlit.py      # Interactive Streamlit web app
   ├── data/             # Cleaned dataset in CSV format
   ├── plots/            # Visualizations and charts
   ├── presentation/     # Final presentation slides
-  ├── streamlit.py      # Interactive Streamlit web app
   ├── requirements.txt  # Python dependencies
   └── README.md         # Project overview and documentation
 ```
