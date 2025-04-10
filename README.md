@@ -37,6 +37,7 @@ Understanding the financial market is one of the most challenging yet fascinatin
 - Run it locally with:
   ```bash
   streamlit run streamlit.py
+  ```
 
 ## 📈 Key Insights
 -  📉 The S&P 500 saw sharp declines during key historical events like the 2008 financial crisis and the COVID-19 pandemic.
@@ -45,27 +46,35 @@ Understanding the financial market is one of the most challenging yet fascinatin
 -  📊 Visualizations such as heatmaps, time series trends, and scatter plots reveal economic dynamics influencing the stock market.
 
 ## Project Structure
-mid-project-ml-financial-analysis/
-├── code/             # Jupyter notebooks for data cleaning, EDA, and modeling
-│   ├── data_cleaning.ipynb
-│   ├── eda.ipynb
-│   └── supervised_ml_classification.ipynb
-├── data/             # Cleaned dataset in CSV format
-├── plots/            # Visualizations and charts
-├── presentation/     # Final presentation slides
-├── streamlit.py      # Interactive Streamlit web app
-├── requirements.txt  # Python dependencies
-└── README.md         # Project overview and documentation
+```bash
+  mid-project-ml-financial-analysis/
+  ├── code/             # Jupyter notebooks for data cleaning, EDA, and modeling
+  │   ├── data_cleaning.ipynb
+  │   ├── eda.ipynb
+  │   └── supervised_ml_classification.ipynb
+  ├── data/             # Cleaned dataset in CSV format
+  ├── plots/            # Visualizations and charts
+  ├── presentation/     # Final presentation slides
+  ├── streamlit.py      # Interactive Streamlit web app
+  ├── requirements.txt  # Python dependencies
+  └── README.md         # Project overview and documentation
+```
 
 ## 📦 Getting Started
 1. Clone the Repository
-  - `git clone https://github.com/abhishek-chattopadhyay/-mid-project-ml-financial-analysis.git`
-  - `cd mid-project-ml-financial-analysis`
+```bash
+git clone https://github.com/abhishek-chattopadhyay/-mid-project-ml-financial-analysis.git
+cd mid-project-ml-financial-analysis
+```
 2. Install Dependencies
-  - It’s recommended to use a virtual environment: `pip install -r requirements.txt`
+  - It’s recommended to use a virtual environment: 
+  ```bash
+    pip install -r requirements.txt
+  ```
 3. Launch the App:
   ```bash
-  streamlit run streamlit.py
+    streamlit run streamlit.py
+  ```
 
 ## 💬 Extra Notes
 - This project was developed as a mandatory mid-term project for the Ironhack Data Science Bootcamp..
