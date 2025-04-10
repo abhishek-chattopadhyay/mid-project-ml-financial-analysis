@@ -69,8 +69,9 @@ mid-project-ml-financial-analysis/
   - `cd mid-project-ml-financial-analysis`
 2. Install Dependencies
   - It’s recommended to use a virtual environment: `pip install -r requirements.txt`
-3. Launch the App
-  - `streamlit run streamlit.py`
+3. Launch the App:
+  ```bash
+  streamlit run streamlit.py
 
 ## 💬 Extra Notes
 - This project was developed as a mandatory mid-term project for the Ironhack Data Science Bootcamp..
