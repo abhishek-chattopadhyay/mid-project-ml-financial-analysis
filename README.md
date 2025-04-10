@@ -1,5 +1,5 @@
 # Predicting Financial Market Trend Using Economic Indicators: An Investigation Based On State-of-the-art Machine Learning Models
-The world of finance is fascinating. Tracking and understanding the financial market is one of the most complex tasks. I am passionate about the economics and financial market. One of my hobbies is to understand how economic indicators affect the financial market, especially, the stock market. In this project, I have delved deep into this problem and try to find an answer. This project is a complete end-to-end data analysis project needed for Ironhack bootcamp.
+The world of finance is fascinating. Tracking and understanding the financial market is one of the most complex tasks. I am passionate about the economics and financial market. One of my hobbies is to understand how economic indicators affect the financial market, especially, the stock market. In this project, I have delved deep into this problem and try to find an answer. This project is a complete end-to-end data science and machine learning project required as a mandatory mid-term project for Ironhack bootcamp.
 
 ## Objective of this project
 - To understand how economic indicators such as GDP, unemployment, inflation etc. affect S&P500.
