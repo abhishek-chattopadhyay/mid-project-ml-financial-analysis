@@ -2,8 +2,6 @@
 
 Understanding the financial market is one of the most challenging yet fascinating tasks in economics. This end-to-end data science project explores how key economic indicators—such as GDP, unemployment, and inflation—impact the performance of the stock market, specifically the S&P 500 index. As part of the Ironhack Data Science Bootcamp, this mid-term project blends my passion for financial analysis with cutting-edge machine learning techniques.
 
----
-
 ## 🎯 Project Goals
 
 - Investigate the relationship between macroeconomic indicators and the stock market.
@@ -13,14 +11,10 @@ Understanding the financial market is one of the most challenging yet fascinatin
 - Evaluate model performance and select the best-performing algorithm.
 - Communicate insights through interactive visualizations and a Streamlit app.
 
----
-
 ## 📚 Data Sources
 
 - **Economic Data:** [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
 - **Stock Market Data:** [Yahoo Finance](https://finance.yahoo.com/)
-
----
 
 ## 🛠 Methodology
 
