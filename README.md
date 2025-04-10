@@ -1,45 +1,80 @@
-# Predicting Financial Market Trend Using Economic Indicators: An Investigation Based On State-of-the-art Machine Learning Models
-The world of finance is fascinating. Tracking and understanding the financial market is one of the most complex tasks. I am passionate about the economics and financial market. One of my hobbies is to understand how economic indicators affect the financial market, especially, the stock market. In this project, I have delved deep into this problem and try to find an answer. This project is a complete end-to-end data science and machine learning project required as a mandatory mid-term project for Ironhack bootcamp.
+# 📊 Predicting Financial Market Trend Using Economic Indicators: An Investigation Based On State-of-the-art Machine Learning Models
 
-## Objective of this project
-- To understand how economic indicators such as GDP, unemployment, inflation etc. affect S&P500.
-- To collect relevant data, clean them and make a dataset for analysis
-- To perform univariate and bivariate analysis between numerical and categorical data
-- To apply state-of-the-art machine learning models
-- To find the best model and the prediction
-- To present the result to the stakeholders
+Understanding the financial market is one of the most challenging yet fascinating tasks in economics. This end-to-end data science project explores how key economic indicators—such as GDP, unemployment, and inflation—impact the performance of the stock market, specifically the S&P 500 index. As part of the Ironhack Data Science Bootcamp, this mid-term project blends my passion for financial analysis with cutting-edge machine learning techniques.
 
-## Data Sources
-- Economic indicators: [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
-- Stock market data: [Yahoo finance](https://finance.yahoo.com/)
+---
 
-## Methodology
-- Data Collection & Data Wrangling:
-  - Using FRED API and python yfinance module to collect data
-  - Merging all the series data into a dataframe
-  - Creating relevant categorical and numerical columns
-  - Replacing NaN values
-  - Creating a clean dataframe for further analysis
-  - This can be found in the `data_cleaning.ipynb` notebook
-- Exploratory Data Analysis(EDA):
-  - Univariate analysis
-  - Bivariate analysis
-  - This is presented in the `eda.ipynb` notebook
-- Training State-of-the-art Machine Learning Models
-  - Applied linear and tree based machine learning models to predict S&P500
-  - Calculated the accuracy of the models and the best model is chosen 
-  - This is given in the `supervised_ml_classification.ipynb`
-- Streamlit app
-  - You can interact with the models using the Streamlit app
-  - To run this, use: `streamlit run streamlit.py`
-## Results
-### Key insights
-  1. Univariate analysis shows historical events such as 2008 financial crisis and 2019 Covid-19 pandemic when S&P500 crashed more than 10% in a month
-  2. Multiple correlations can be found between important economic indicators and S&P500 from the correlation matrix which shows how economic indicators affect the stock market.
-  3. Different other correlations can be found in the notebook (e.g. construction of new homes goes down when unemployment rate increases).
-  4. Linear regression models work very well for this dataset
-## Extra materials
-- A detailed Jupyter notebook can be found in the [code](/code) folder.
-- Relevant plots can be found in the [plot](/plot) folder.
-- A ready-to-work-on data file (csv format) can be found in the [data](/data) folder.
-- The final presentation is added to the [presentation](/presentation) folder.
+## 🎯 Project Goals
+
+- Investigate the relationship between macroeconomic indicators and the stock market.
+- Build a comprehensive dataset by collecting and cleaning real-world economic and financial data.
+- Conduct detailed exploratory data analysis to uncover hidden patterns.
+- Apply state-of-the-art machine learning models to predict S&P 500 trends.
+- Evaluate model performance and select the best-performing algorithm.
+- Communicate insights through interactive visualizations and a Streamlit app.
+
+---
+
+## 📚 Data Sources
+
+- **Economic Data:** [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/)
+- **Stock Market Data:** [Yahoo Finance](https://finance.yahoo.com/)
+
+---
+
+## 🛠 Methodology
+
+### 🔹 Data Collection & Wrangling
+- Collected macroeconomic and stock market data using FRED API and `yfinance` package.
+- Merged time series into a single DataFrame, handled missing values, and engineered new features.
+- Final cleaned dataset available in `data_cleaning.ipynb`.
+
+### 🔹 Exploratory Data Analysis (EDA)
+- Conducted univariate and bivariate analysis to understand variable relationships.
+- Key plots and visual insights presented in `eda.ipynb`.
+
+### 🔹 Machine Learning Modeling
+- Applied linear models and tree-based models to predict S&P 500 direction.
+- Evaluated performance and selected the best model.
+- Implementation and results in `supervised_ml_classification.ipynb`.
+
+### 🔹 Streamlit Web App
+- Built an interactive app to visualize model predictions and explore the dataset.
+- Run it locally with:
+  ```bash
+  streamlit run streamlit.py
+
+## 📈 Key Insights
+-  📉 The S&P 500 saw sharp declines during key historical events like the 2008 financial crisis and the COVID-19 pandemic.
+-  🔗 Strong correlations exist between economic indicators and market performance — e.g., unemployment rate and housing data.
+-  ✅ Linear regression models performed surprisingly well, offering high interpretability and solid accuracy.
+-  📊 Visualizations such as heatmaps, time series trends, and scatter plots reveal economic dynamics influencing the stock market.
+
+## Project Structure
+mid-project-ml-financial-analysis/
+├── code/             # Jupyter notebooks for data cleaning, EDA, and modeling
+│   ├── data_cleaning.ipynb
+│   ├── eda.ipynb
+│   └── supervised_ml_classification.ipynb
+├── data/             # Cleaned dataset in CSV format
+├── plots/            # Visualizations and charts
+├── presentation/     # Final presentation slides
+├── streamlit.py      # Interactive Streamlit web app
+├── requirements.txt  # Python dependencies
+└── README.md         # Project overview and documentation
+
+## 📦 Getting Started
+1. Clone the Repository
+  - `git clone https://github.com/abhishek-chattopadhyay/-mid-project-ml-financial-analysis.git`
+  - `cd mid-project-ml-financial-analysis`
+2. Install Dependencies
+  - It’s recommended to use a virtual environment: `pip install -r requirements.txt`
+3. Launch the App
+  - `streamlit run streamlit.py`
+
+## 💬 Extra Notes
+- This project was developed as a mandatory mid-term project for the Ironhack Data Science Bootcamp..
+- The code is modular, readable, and can be reused or extended for similar financial prediction problems.
+- Includes comprehensive Jupyter notebooks, ready-to-use data, and a web app.
+
+Feel free to ⭐️ the repo if you find it useful or open an issue if you’d like to collaborate or suggest improvements!
