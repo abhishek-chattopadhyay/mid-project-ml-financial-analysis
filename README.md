@@ -1,6 +1,6 @@
 # 📊 Predicting Financial Market Trend Using Economic Indicators: An Investigation Based On State-of-the-art Machine Learning Models
-Understanding the financial market is one of the most challenging yet fascinating tasks in economics. This end-to-end data science project explores how key economic indicators—such as GDP, unemployment, and inflation—impact the performance of the stock market, specifically the S&P 500 index. As part of the Ironhack Data Science Bootcamp, this mid-term project blends my passion for financial analysis with cutting-edge machine learning techniques.
 ![](./presentation/stock_market_2.png)
+Understanding the financial market is one of the most challenging yet fascinating tasks in economics. This end-to-end data science project explores how key economic indicators—such as GDP, unemployment, and inflation—impact the performance of the stock market, specifically the S&P 500 index. As part of the Ironhack Data Science Bootcamp, this mid-term project blends my passion for financial analysis with cutting-edge machine learning techniques.
 
 ## 🎯 Project Goals
 
